@@ -1,0 +1,8 @@
+.table{padding:  0 25px;position: relative;margin-top: 32px;}
+table{border-top: 1px solid #e1e1e1;}
+table tr td{ line-height: 20px; padding: 10px 7px 10px 15px;word-break: break-all;border-left: 1px solid #e1e1e1;border-bottom: 1px solid #e1e1e1;font-size: 14px;color: #333;height: 50px;}
+table tr .ty1{width: 138px; }
+table tr .ty2{width: 314px;color: #666;}
+table tr .ty3{width: 163px; }
+table tr .ty4{width: 335px; border-right: 1px solid #e1e1e1;color: #666;}
+table tr .ty_right{border-right: 1px solid #e1e1e1;color: #666;}

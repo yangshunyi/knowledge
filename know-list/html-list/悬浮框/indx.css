@@ -1,0 +1,96 @@
+.list{
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+	background-clip:padding-box ; /*规定背景的绘制区域*/： 
+}
+.list .item{
+	padding: 7px 16px;
+	margin: 0;
+	color:rgba(0,0,0,0.5);
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-transform:all  .3s;
+	transform: all .3s;
+	text-align: center;
+}
+
+.btn{
+	display: inline-block;
+	text-align: center;
+	touch-action: manipulation; 
+	cursor: pointer;
+	background-image: none;
+	border:1px solid transparent;
+	white-space: normal;
+	line-height: 1.5;
+	padding: 4px 15px;
+	font-size:12px; 
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-webkit-transition:all 0.3s cubic-bezier(.645,.045,.355,1);
+	transition: all 0.3s cubic-bezier(.645,.045,.355,1); 
+	color:rgba(0,0,0,.65);
+	background-color:#fff;
+	border-color:#d9d9d9;
+	position: relative;
+}
+.pop{
+	position: absolute;
+	width: 150%;
+	top:102%;
+	left: -25%;
+	opacity: 0;
+	display: none;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.list .item:hover{background-color:#ecf6fd ;}
+
+.btn:hover .pop{
+	display: block;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+ 
+}
+
+/*加动画 animate.css*/
+
+/*i{-webkit-transform:scale(.83333333) rotate(0deg);-ms-transform:scale(.83333333) rotate(0deg);transform:scale(.83333333) rotate(0deg);-ms-filter:"progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";zoom:1}*/
+
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}*/

@@ -1,0 +1,43 @@
+body{font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;}
+.nav{
+	box-sizing: border-box;
+	transition: transform .5s cubic-bezier(.645,.045,.355,1);
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+
+.tab{
+	display:inline-block;
+	height: 100%;
+	margin-right: 24px;
+	box-sizing: border-box;
+	position: relative;
+	padding: 8px 20px;
+	transition: color .3s cubic-bezier(.645,.045,.355,1);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.tab-bar{
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	bottom:-1px;
+	box-sizing: border-box;
+	height: 2px;
+	background-color: #108EE9;
+	transition: transform .3s cubic-bezier(.645,.045,.355,1);
+	transform-origin: 0 0;
+	transform: translate3d(0px, 0px, 0px);
+	width: 74px;
+	display: block;
+}
+
+
+.tab:hover{color:#108EE9;}
+/*.tab1:hover ~ .tab-bar {transform: translate3d(0px, 0px, 0px);}*/
+.tab2:hover ~ .tab-bar {transform: translate3d(102px, 0px, 0px);}
+.tab3:hover ~ .tab-bar {transform: translate3d(204px, 0px, 0px);}

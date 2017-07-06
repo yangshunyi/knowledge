@@ -2,7 +2,6 @@ require(["../../../js/jquery/jquery.1.8.3"],function(){
 	
      var base64Img =(function(){
      	
-   
         var getBase64Imgae = function(img){
         	var canvas = document.createElement("canvas");
         	canvas.width = img.width;
@@ -34,8 +33,13 @@ require(["../../../js/jquery/jquery.1.8.3"],function(){
 					type : 'image/png'
 				});
 	    };
+	    
+	    var Img = function(){}
+	    Img.prototype.getBase64Imgae = function(img){
+	    	getBase64Imgae(img)
+	    }
        	
-       	var  
+   
      	
    
      })();

@@ -2,3 +2,5 @@
  body{font-family:"微软雅黑",Helvetica, sans-serif;-webkit-text-size-adjust: none;}
  body , html {width: 100%;height: 100%;}
  ul li{list-style: none;}
+ a,a:hover { text-decoration: none;}
+ a:hover {color: #1e70bf;}

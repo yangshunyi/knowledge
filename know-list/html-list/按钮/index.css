@@ -1,0 +1,21 @@
+.btn{
+	display: inline-block;
+	text-align: center;
+	touch-action: manipulation; 
+	cursor: pointer;
+	background-image: none;
+	border:1px solid transparent;
+	white-space: normal;
+	line-height: 1.5;
+	padding: 4px 15px;
+	font-size:12px; 
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-webkit-transition:all 0.3s cubic-bezier(.645,.045,.355,1);
+	transition: all 0.3s cubic-bezier(.645,.045,.355,1); 
+	color:rgba(0,0,0,.65);
+	background-color:#fff;
+	border-color:#d9d9d9;
+}
+
+.d1:hover{border-color:#108ee9;color:#108EE9;}
