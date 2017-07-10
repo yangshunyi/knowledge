@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+	   *{padding: 0px;margin: 0px;box-sizing: border-box;}
+	    html, body {
+            height: 100%; 
+        }
+		.contain{
+			background-image: url(img/background-photo.jpg);
+			/*背景图垂直,水平均居中*/
+			background-position:center center;
+			/*背景图不平铺*/
+			background-repeat: no-repeat;
+			/*背景图基于容器大小伸缩*/
+			background-size: cover;
+			/* 设置背景颜色，背景图加载过程中会显示背景色 */
+			background-color: #464646;
+		}
+		.contain{
+			width: 100%;
+			height: 100%;
+		}
+		.fooder{
+			height: 1000px;line-height: 30px;
+		}
+	</style>
+	<body>
+		<div class="contain"></div>
+		<div class="fooder">
+			文字内容文字内容
+		</div>
+	</body>
+</html>
