@@ -5,7 +5,7 @@
 .contain .user-list li a{color:#555;}
 
 body{background: #F7F7F7;}
-.showcase{display: flex;flex-flow: wrap;width: 1180px;margin: 0px auto;padding-top: 100px;}
+.showcase{display: flex;flex-flow: wrap;width: 1180px;margin: 0px auto;padding-top: 400px;}
 .showcase .item{
 	flex-grow: 1; padding: 20px;margin-left: 1px;  margin-right: 1px;  margin-bottom: 2px; width: calc(16.666666666666664% - 2px); background-color: #fff;   transition: box-shadow .2s ease-in-out,transform .2s ease-in-out; text-align: center;
 }
