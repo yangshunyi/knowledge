@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+		<script>
+			(function(){
+				$.ajax({
+					type:"get",
+					url:"http://api.goseek.cn/Tools/holiday",
+					data:{"data":"20170930"},
+					success:function(data){
+						if(data!='0'){
+							alert('为节假日');
+						}
+					},
+					error:function(data){
+						console.log("error")
+					}
+				});
+				
+				
+			})();
+			
+			
+		</script>
+	</body>
+</html>
